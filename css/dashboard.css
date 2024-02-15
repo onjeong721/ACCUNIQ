@@ -1,0 +1,62 @@
+section#dashboard {
+  background: white;
+  position: relative;
+}
+section#dashboard .wrap {
+  
+}
+section#dashboard .wrap {
+  position: relative;
+  z-index: 1;
+}
+section#dashboard .wrap h2 {
+  
+}
+section#dashboard .wrap h2 strong {
+  line-height: 100px;
+}
+section#dashboard .wrap h3 {
+  
+}
+section#dashboard .wrap p {
+  margin: 20px;
+}
+section#dashboard .wrap >span {
+  
+  margin-top: 30px;
+}
+section#dashboard .wrap span a {
+  
+  margin-bottom: 10px;
+}
+section#dashboard .wrap span a img {
+  
+}
+section#dashboard .wrap ul {
+  grid-column: 2;
+  grid-row: 1 /span 5;
+  gap: 30px;
+}
+section#dashboard .wrap ul li {
+  
+}
+section#dashboard .wrap ul li:not(:first-child) {
+  transform: scale(0.6);
+  width: 350px;
+  height: 400px;
+  margin-left: 30px;
+}
+section#dashboard .wrap ul li img {  
+  width: 100%;
+}
+section#dashboard::after {
+  content: "";
+  width: 1800px;
+  height: 245px;
+  display: block;
+  background-color: #F5F5F5;
+  border-radius: 0px 30px 30px 0;
+  position: absolute;
+  left: 0;
+  top: 400px;
+}

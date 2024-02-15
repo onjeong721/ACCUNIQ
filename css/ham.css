@@ -1,0 +1,36 @@
+.ham{
+   /*! display: initial; */
+   width: 25px;
+   height: 24px;
+   margin-right: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ .ham span{
+   width: 100%;
+   height: 4px;
+   display: block;
+   background-color: black;
+   transition: 0.5s;
+ }
+ .ham span:nth-child(1){
+    
+ }
+ .ham span:nth-child(2){
+    
+  transition: 0.01s;
+ }
+ .ham span:nth-child(3){
+    
+ }
+/* 햄버거 클릭시 모양 "x"로 변화 */
+ .ham.x span:nth-child(1){
+    transform: translateY(10px) rotate(45deg);
+ }
+ .ham.x span:nth-child(2){
+   opacity: 0;
+ }
+ .ham.x span:nth-child(3){
+    transform: translateY(-10px) rotate(-45deg);
+ }

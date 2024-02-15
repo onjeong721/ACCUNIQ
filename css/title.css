@@ -1,0 +1,80 @@
+#title {
+  height: 100%;
+  background-color: white;
+  max-width: 1720px;
+  margin: 0 auto;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 0 10px #ccc;
+  min-height: 600px;
+  background-image: 
+    url(../img/logo.svg), 
+    url(../img/backtext.svg);
+  background-repeat: no-repeat;
+  background-position-x: 80%,center;
+  background-position-y:60%, 103%;
+  background-size: 38%, 100%;
+  position: relative;
+}
+#title .wrap {
+  height: 100%;
+}
+#title .wrap hgroup { 
+  /*! perspective: 400px; */
+}
+#title .wrap hgroup h2 {
+  color: #3ABCEE;
+  font-weight: bold;
+  animation-name: fliph2;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  transform-origin: 0 0;
+  backface-visibility: hidden;
+  width: fit-content;
+}
+@keyframes fliph2{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(180deg);
+  }
+}
+#title .wrap hgroup h3 {
+  font-weight: 1000;
+  line-height: 1.2;
+  color: #333333;
+  color: #3ABCEE;
+  font-weight: bold;
+  animation-name: fliph3;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  transform-origin: 0 0;
+  backface-visibility: hidden;
+  width: fit-content;
+  animation-delay: 0.5s;
+  transform: rotateY(-90deg);
+}
+@keyframes fliph3{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(-90deg);
+  }
+}
+#title::after{
+  content: "";
+  background-image: url(../img/run.png);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y:0%;
+  background-size: contain;
+  width: 655px;
+  height: 877px;
+  display: block;
+  position: absolute;
+  right: 117px;
+  bottom: -86px;
+}
