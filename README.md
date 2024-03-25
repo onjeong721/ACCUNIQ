@@ -1,5 +1,5 @@
 # 이름
-<img src="https://github.com/onjeong721/Bworld/assets/150096277/ff58f83a-3c0f-494f-8269-f48d0ad5b31f" width="80%" height="auto"/>
+<img src="https://github.com/onjeong721/ACCUNIQ/assets/150096277/eae8cc1c-20be-4d02-ad2d-76d8fa5140bc" width="90%" height="auto"/>
 
 ## 프로젝트 소개
  * 사이트 주소
